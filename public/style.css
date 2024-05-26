@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to right, #b1c232, #ab355f); 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1,h2{
+    text-align: center;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label{
+    font-weight:bold ;
+    margin-right: 10px;
+}
+
+.input-section input{
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.input-section input:hover{
+    background-color: rgb(188, 228, 227);
+    color: rgb(36, 32, 35);
+}
+
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(223, 169, 220);
+    color: brown;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.input-section button:hover{
+    background-color: #0cdb81;
+    color: brown;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid rgb(10, 13, 63);
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #b0f6e9;
+}
+
+tfoot td{
+    font-weight: bold;
+    color:rgb(40, 8, 71);
+}
+
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(223, 169, 220);
+    color: brown;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: #622e26;
+    color: rgb(255, 255, 255);
+}
